@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Neonderthaw&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #ebe3e3 !important;
+    background-color: #f5f5dc;
+    font-family: 'comic sans ms';
+    background: url(media/header.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+}
+
+h2,
+h3 {
+    font-family: 'Mochiy Pop P One';
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #696867;
+    color: rgb(78, 78, 78);
+}
+.h5texte {
+    margin-top: 5%;
+  font-size: 100%;
+    font-family: 'Mochiy Pop P One';
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #696867;
+    color: rgb(78, 78, 78);
+}
+li {
+    list-style-type: none;
+}
+
+
+/* *********************header****************** */
+
+.navbar {
+    background-color: #3f8a9796;
+    opacity: 0.9;
+    height: 42px;
+    transition: 0.7s;
+}
+
+.navbar-nav {
+    width: 80% !important;
+    margin-top: 0 auto;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+
+header {
+    text-align: center;
+    height: 100vh;
+    background: url(media/header.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+}
+
+h1 {
+    padding: 90px 0 10px 0;
+    font-family: 'comic sans ms';
+    font-size: 3.3em;
+    text-transform: uppercase;
+}
+
+#line {
+    height: 1Spx;
+    background-color: rgba(63, 138, 151, 0.588);
+    width: 25%;
+    margin: 0 auto;
+}
+
+h2 {
+    padding: 20px 0 50px 0;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+.presentation {
+    height: 380px;
+    margin-top: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 40px #696867;
+    border: 2px solid rgba(63, 138, 151, 0.588);
+    background-color: #070707ab;
+    color: aqua;
+}
+
+.info {
+    /* border: 2px solid rgba(63, 138, 151, 0.588); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: #f7f7f7;
+}
+
+.photo {
+    /* border: 2px solid rgba(63, 138, 151, 0.588); */
+    position: relative;
+}
+
+.photo img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    max-width: 90%;
+    border-radius: 3px;
+    box-shadow: 0 0 40px #696867;
+}
+
+
+/* *********************COMPETENCE & OUTIL****************** */
+
+#Mes_Outils {
+    padding: 100px 150px 100px 100px;
+    margin: 20px 0 0 6%;
+    text-align: center;
+    position: relative;
+    left: 220px;
+    height: 520px;
+    width: 47%;
+    max-width: 640px;
+    background: linear-gradient(159deg, rgba(255, 0, 153, 0.91) 0%, #493240 80%);
+    clip-path: polygon(16% 0, 100% 0, 75% 100%, 0% 100%);
+}
+
+#Mes_Outils .bar {
+    padding: 10px 0 4px 0;
+    letter-spacing: 0.1em;
+}
+
+#Mes_Compétences {
+    position: relative;
+    top: -200px;
+    float: right;
+    right: 220px;
+    margin-right: 5%;
+    padding: 100px 150px 100px 150px;
+    margin: 20px 0 0 6%;
+    text-align: center;
+    height: 520px;
+    width: 47%;
+    max-width: 640px;
+    background: linear-gradient(159deg, rgba(255, 0, 153, 0.91) 0%, #493240 80%);
+    clip-path: polygon(0 0, 77% 0, 100% 100%, 24% 100%);
+}
+
+
+/* *********************Experience****************** */
+
+#Mon_Expérience {
+    max-width: 800px;
+    margin: 640px auto 180px auto;
+    padding: 40px 30px 100px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 40px #f7f7f7;
+    background-color: #070707ab;
+    text-align: center;
+}
+
+#Mon_Expérience h3 {
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+
+#Mon_Expérience h4 {
+    font-size: 1.6em;
+    margin-left: 20px;
+    color: rgb(112, 111, 111);
+}
+
+#Mon_Expérience h6 {
+    font-style: italic;
+    color: #00ffff;
+    margin-left: 20px;
+}
+
+#Mon_Expérience p {
+    line-height: 1.9em;
+}
+
+.timeline {
+    border-top: 3px solid;
+    border-image: linear-gradient(159deg, rgba(255, 0, 153, 0.91) 0%, #493240 80%);
+    border-image-slice: 1;
+    margin: 0;
+    padding: 40px;
+    position: relative;
+}
+
+.timeline:nth-child(1):after {
+    content: '100000';
+    color: aqua;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    box-sizing: content-box !important;
+}
+
+.timeline:nth-child(1) {
+    border-bottom: 3px solid;
+    border-top: none;
+    width: 80%;
+}
+
+.timeline:nth-child(2) {
+    border-top: none;
+    width: 80%;
+}
+
+.timeline:nth-child(odd) {
+    border-right: 3px solid;
+    padding-left: 0;
+}
+
+.timeline:nth-child(even) {
+    border-left: 3px solid;
+    padding-right: 0;
+}
+
+footer {
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 700px;
+    margin-right: 700px;
+    border-radius: 3px;
+    box-shadow: 0 0 40px #dad8d6;
+    border: 2px solid rgba(255, 255, 255, 0);
+    background-color: #070707ab;
+    text-align: center;
+}
